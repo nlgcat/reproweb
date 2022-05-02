@@ -12,30 +12,34 @@ The ReproHum project aims improve the current reproducibility situation in NLP. 
 
 [Ehud Reiter](https://www.abdn.ac.uk/ncs/profiles/e.reiter):  Co-Investigator - University of Aberdeen
 
-[Craig Thomson](https://www.abdn.ac.uk/people/c.thomson):  Research Assistant - University of Aberdeen
+[Craig Thomson](https://www.abdn.ac.uk/ncs/profiles/c.thomson):  Research Assistant - University of Aberdeen
 
 
-## Survey for NLP researchers
+## Project overview
+The project will take place over the 18 months from April 2022.  There are six work packages.
+
+
+### Survey of NLP researchers
 We will shortly be conducting a surveys on the attitudes towards reproducibility in NLP, as well as the barriers that are faced by researchers.
 
 
-## Multi-lab Study
-A major part of the ReproHum project is a large multi-lab study where partner labs from across the world will reproduce results from a variety of papers from the last 10 years.  We are still open to new partner labs joining, please contact the organisers (links above).
-
-... what are the reqs?  A faculty memeber to be the primary contact?
-... partners provide time, and optionally funding for any experiments they perform (how do we word this?)
-
-
-## ReproGen
+### ReproGen
 The ReproGen shared task was first run as [ReproGen 2021](https://reprogen.github.io/2021) and is being run again as [ReproGen 2022](https://reprogen.github.io).  There are two tracks, one where participants can attempt reproduction of human or automated evaluations from a common list of published papers, and a second where participants can reproduct their own prior work.
 
 
-## Coefficient of Variation
-To measure the 
+### Multi-lab reproducibility study
+A major part of the ReproHum project is a large multi-lab study where partner labs from across the world will reproduce results from a variety of papers from the last 10 years.  We are still open to new partner labs joining, please contact the organisers (links above).
+
+Partner labs will run reproductions of prior results from a selection of papers.  For each paper, reproduction will by attempted by two labs in the first [degree of reproducibility](https://aclanthology.org/2020.inlg-1.24), with evaluation in increasing degree applied to any papers that are reproducable in a lower degree.
+
+
+## Quantified Reproducibility Assessment
+To obtain a single score estimating the degree of reproducibility of a given system and evaluation measure we will carry out a [quantified reproducibility assessment](https://arxiv.org/abs/2204.05961).  We will calculate the coefficient of variation with adjustment for small sample size.  Code implementation can be found [here](https://github.com/asbelz/coeff-var)
 
 
 ## ReproHum Papers
-
+We just started the project, watch this space!
 
 ## Other relevant papers
+TODO - biblio
 
