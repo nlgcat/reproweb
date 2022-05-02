@@ -2,9 +2,10 @@
 The ReproHum projects aims to define, measure, and improve reproducibility in the field of Natural Language Processing.  The project is funded under [EPSRC grant EP/V05645X/1](https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/V05645X/1).  Reproducibility is one of the cornerstones of scientific research yet experimentla results for NLP systems are seldom reproduced.  Even when they are, results tend to be worse than in the original publication.
 
 The ReproHum project aims improve the current reproducibility situation in NLP.  The main goals are:
-1. Develop a methodological framework from testing the reproducibility of human evaluations in NLP.
-2. Design then perform a multi-lab study where partner labs reproduce human evaluation results from the last 10 years, covering a variety of areas within NLP.
-3. Provide guidance on reproducibility to the NLP community and build a concensus within the community on how NLP as a field can continue to improve in this regard.
+* Diagnose the extent of the reproducibility problem in NLP and identify barriers to carrying out replication work.
+* Develop a methodological framework for testing the reproducibility of human evaluations in NLP.
+* Design then perform the ReproHum multi-lab study where partner labs reproduce human evaluation results from the last 10 years, covering a variety of areas within NLP.  In addition, continue the ReproGen shared task.
+* Provide guidance on reproducibility to the NLP community and build a concensus within the community on how NLP as a field can continue to improve in this regard.
 
 
 ## Organisers
@@ -33,7 +34,7 @@ A major part of the ReproHum project is a large multi-lab study where partner la
 Partner labs will run reproductions of prior results from a selection of papers.  For each paper, reproduction will by attempted by two labs in the first [degree of reproducibility](https://aclanthology.org/2020.inlg-1.24), with evaluation in increasing degree applied to any papers that are reproducable in a lower degree.
 
 
-## Quantified Reproducibility Assessment
+### Quantified Reproducibility Assessment
 To obtain a single score estimating the degree of reproducibility of a given system and evaluation measure we will carry out a [quantified reproducibility assessment](https://arxiv.org/abs/2204.05961).  We will calculate the coefficient of variation with adjustment for small sample size.  Code implementation can be found [here](https://github.com/asbelz/coeff-var)
 
 
@@ -41,5 +42,5 @@ To obtain a single score estimating the degree of reproducibility of a given sys
 We just started the project, watch this space!
 
 ## Other relevant papers
-TODO - biblio
+TODO - biblio, papers with links once happy with rest of page
 
